@@ -5,8 +5,14 @@ $(document).ready(function() {
   });
 });
 $(document).ready(function(){
-  $(".clickable1").click(function(){
+  $(".clickable").click(function(){
     $(".baby-walrus-hidden").fadeToggle();
     $(".baby-walrus-showing").fadeToggle();
+  });
+});
+$(document).ready(function(){
+  $(".clickable").click(function(){
+    $(".walrus-suit-hidden").fadeToggle();
+    $(".walrus-suit-showing").fadeToggle();
   });
 });
