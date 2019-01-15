@@ -1,18 +1,18 @@
+img {
+  width:200px;
+  height:200px;
+}
+
 .walrus-showing {
   display: none;
 }
 
-.clickable {
+.clickable, .clickable1, .clickable2 {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable1 {
-  cursor: pointer;
-  color: #0088cc;
-}
-
-.clickable:hover, .clickable1:hover {
+.clickable:hover, .clickable1:hover, .clickable2:hover {
   text-decoration: underline;
 }
 .baby-walrus-showing{
@@ -21,4 +21,24 @@
 
 .walrus-suit-showing{
   display: none;
+}
+
+.dark-background{
+  background-color: black;
+  color:white;
+}
+
+.light-background{
+  background-color: white;
+  color:black;
+}
+
+.btn-black {
+  background-color: black;
+  color:white;
+}
+
+.btn-grey{
+  background-color: gray;
+  color:black;
 }
